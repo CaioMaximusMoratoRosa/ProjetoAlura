@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <main class="conteudo">
+        <header class="cabecalho">
+            <img src="assets/Frame 6.png" alt="Logo Alura">
+            <h1>Mensagem Criptografada</h1>
+        </header>
+
+    <div class="container-input">
+        <div class="input">
+            <textarea id="input__caixaTexto__texto" placeholder="Digite aqui..."></textarea>
+            <p>ATENÇÃO: Apenas letras minusculas sem acento</p>
+        </div>
+
+        <div id="output">
+            <img src="assets/desenho fundo.svg" alt="Fundo Mensagem">
+            <h2>Sua mensagem ficará aqui...</h2>
+            <span>Digite um texto para criptografar ou decodificar</span>
+        </div>
+
+    </div>
+
+    <div class="acao">
+        <div class="acao__botao">
+            <button onclick="criptografar()" class="acao__botao__criptografar">Criptografar</button>
+            <button onclick="decodificar()" class="acao__botao__decodificar">Decodificar</button>
+        </div>
+    </div>
+
+    <footer class="rodape">
+        <div class="rodape__icones">
+            <h3>Desenvolvido por Caio Maximus Morato Rosa</h3>
+        </div>
+    </footer>
+    </main>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
